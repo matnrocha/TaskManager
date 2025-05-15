@@ -1,0 +1,44 @@
+# Geral
+node_modules/
+.env
+.env.*  # para .env.development, .env.production etc.
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.DS_Store
+Thumbs.db
+
+# Logs de erros de sistema operacional
+*.swp
+*.swo
+
+# Editor e IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Testes e coverage
+coverage/
+*.lcov
+
+# Arquivos de produção e build
+*.tgz
+
+# Backend específico
+/backend/node_modules/
+backend/.env
+backend/dist/
+backend/uploads/
+
+# Frontend específico
+/frontend/node_modules/
+frontend/.env
+frontend/dist/
+frontend/build/
+
+# Se estiver usando Tailwind JIT ou outros cache tools
+frontend/.tailwind-cache/
