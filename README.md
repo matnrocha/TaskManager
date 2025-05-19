@@ -8,7 +8,7 @@
 
 ---
 
-## Backend
+## Backend (Node)
 
 ### 1. Instalar dependências
 
@@ -17,7 +17,7 @@ cd backend
 npm install
 ```
 
-### 2. Configurar o MongoDB
+### 2. Configurar a base de dados (MongoDB)
 
 - Crie um novo projeto no MongoDB Atlas
 - Crie um cluster (Free)
@@ -45,7 +45,7 @@ npm run dev
 
 ---
 
-## Frontend
+## Frontend (React)
 
 ### 1. Instalar dependências
 ```bash
